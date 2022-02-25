@@ -14,7 +14,7 @@ const Button = ({ onClick, type, children }) => {
 
   return (
     <button className={btnClass} onClick={onClick}>
-      В корзину
+      {children}
     </button>
   );
 };
