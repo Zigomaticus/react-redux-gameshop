@@ -4,6 +4,7 @@ import { useSelector } from "react-redux";
 
 // Components
 import CartMenu from "../cart-menu/cart-menu";
+import ItemsInCart from "../items-in-cart/items-in-cart";
 
 // Utils
 import { calcTotalPrice } from "../utils";
@@ -17,6 +18,7 @@ const CartBlock = () => {
 
   return (
     <div className="cart-block">
+      <ItemsInCart quantity={items.length} />
       <BiCartAlt
         size={25}
         className="cart-block__icon"
