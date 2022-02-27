@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-redux-gameshop/static/css/main.b0002080.css",
+    "main.js": "/react-redux-gameshop/static/js/main.49c370cc.js",
+    "index.html": "/react-redux-gameshop/index.html",
+    "main.b0002080.css.map": "/react-redux-gameshop/static/css/main.b0002080.css.map",
+    "main.49c370cc.js.map": "/react-redux-gameshop/static/js/main.49c370cc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b0002080.css",
+    "static/js/main.49c370cc.js"
+  ]
+}
