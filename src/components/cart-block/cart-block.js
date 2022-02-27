@@ -26,11 +26,6 @@ const CartBlock = () => {
     navigate("/order");
   }, [navigate]);
 
-  // const handleClick = () => {
-  //   setIsCartMenuVisible(false);
-  //   navigate("/order");
-  // };
-
   return (
     <div className="cart-block">
       <ItemsInCart quantity={items.length} />
